@@ -58,7 +58,8 @@ def clothoids(c0, a0, sf, phi, N):
         The corresponding orientation path for the corresponding values in s.
 
     cd [numpy.ndarray with shape (n, 2)]
-        The unit directional gradient for the clothoid segment for the correspinding values in s.
+        The unit directional gradient for the clothoid segment for the
+        correspinding values in s.
 
     c [numpy.ndarray with shape (n, 2)]
         The clothoid path.
