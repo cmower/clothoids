@@ -38,7 +38,9 @@ def clothoids(c0, a0, sf, phi, N):
         The final value for s. The range of s values will be [0, sf].
 
     phi [array-like with shape Nseg-by-2]
-        Linear parameters for each clothoid segment. Each row corresponds to a clothoid segment.
+        Linear parameters for each clothoid segment. Each row corresponds to a
+        clothoid segment. If you want only one segment, then pass a list with 2
+        elements.
 
     N [int]
         Discretization of each clothoid segment.
