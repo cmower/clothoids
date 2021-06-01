@@ -68,7 +68,7 @@ def clothoids(c0, a0, sf, phi, N):
 
     phi = numpy.asarray(phi)
     if phi.ndim == 1:
-        phi = numpy.array([[phi[0], phi[1]]])
+        phi = phi.reshape(1, 2)
 
     Nseg = phi.shape[0]
     s_points = numpy.linspace(0, sf, Nseg+1)
